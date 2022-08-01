@@ -14,12 +14,12 @@
 <!-- /////////////////DEPENDÊNCIAS////////////////////// -->
 ### Instalar as seguintes dependências
 
-> npm install express
-> npm install -g nodemon
-> npm install --save sequelize
-> npm install --save mysql2
-> npm install express-handlebars --save
-> nnpm install sequelize --save
+> npm install express \
+> npm install -g nodemon \
+> npm install --save sequelize \
+> npm install --save mysql2 \
+> npm install express-handlebars --save \
+> nnpm install sequelize --save \
 > npm install multer --save
 
 <!-- /////////////////UTILIZAÇÃO////////////////////// -->
