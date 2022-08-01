@@ -1,0 +1,33 @@
+<div class="bg-light p-5 rounded mt-3">
+    <h1>Dados enviados ao banco</h1>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">OLT</th>
+            <th scope="col">Slot</th>
+            <th scope="col">Port</th>
+            <th scope="col">Ont_id</th>
+            <th scope="col">SN</th>
+            <th scope="col">Run State</th>
+            <th scope="col">Config State</th>
+            <th scope="col">Match State</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each datainsert}}
+          <tr>
+            <td class="col-md-1">{{id}}</td>
+            <td class="col-md-2">{{olt}}</td>
+            <td class="col-md-1">{{slot}}</td>
+            <td class="col-md-1">{{port}}</td>
+            <td class="col-md-1">{{ont_id}}</td>
+            <td class="col-md-3">{{sn}}</td>
+            <td class="col-md-2">{{run_state}}</td>
+            <td class="col-md-2">{{config_state}}</td>
+            <td class="col-md-2">{{match_state}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+  </div>

@@ -1,0 +1,76 @@
+body{
+  height: 100vh;
+  position: relative;
+  background: url('../img/bg.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.box-logo{
+  position: relative;
+  max-width: 800px;
+  width: 600px;
+  height: 200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box-logo img{
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+  width: 450px;
+  height: 60px;
+  position: relative;
+}
+
+.container-check .checkbox {
+  background-color: #212529;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  width: calc(100% /3);
+  box-sizing: content-box;
+  list-style: inside;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+#huawei, #zte, #ztestate {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+#huawei::before, #zte::before, #ztestate::before{
+  content: '';
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #d50000;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9;
+}
+
+#huawei:checked::before, #zte:checked::before, #ztestate:checked::before{
+  opacity: 1;
+  visibility: visible;
+}

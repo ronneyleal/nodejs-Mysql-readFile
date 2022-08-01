@@ -1,0 +1,32 @@
+<div class="bg-light p-5 rounded mt-3">
+    <h1>Registrar dados</h1>
+
+    <form id="formulario" method="post" enctype="multipart/form-data" action="/reg">
+      <div class="container-check">
+      <div class="checkbox checkbox-huawei">
+        <input class="huawei-check check" name="radioinput" type="radio" value="1" id="huawei">
+        <label class="" for="huawei">Huawei</label>
+      </div>
+      <div class="checkbox checkbox-zte">
+        <input class="zte-check check" name="radioinput" type="radio" value="2" id="zte" ><label class="" for="zte">ZTE
+        </label>
+      </div>
+      <div class="checkbox checkbox-ztestate">
+        <input class="ztestate-check check" name="radioinput" type="radio" value="3" id="ztestate"><label class="" for="ztestate">ZTE-state
+        </label>
+      </div>
+      </div>
+      <div class="mb-3 col-md-6 col-12">
+        <label for="formFileSm" class="form-label"></label>
+        <input accept=".txt" class="form-control form-control-sm" id="formFileSm" type="file" name="file">
+      </div>
+       <div class="col-6 col-md-3">
+          <button onclick="getvalueradio()" id="buttonform" type="submit" class="mt-4 mb-4 p-2 w-100 btn btn-dark">Enviar</button>
+       </div>
+    </form>
+    
+  </div>
+
+    <div class="box-logo">
+      <img src="../img/virtex.png" alt="">
+    </div>
