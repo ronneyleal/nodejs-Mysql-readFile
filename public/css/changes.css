@@ -1,4 +1,4 @@
-body{
+body {
   height: 100vh;
   position: relative;
   background: url('../img/bg.png');
@@ -6,7 +6,7 @@ body{
   background-size: cover;
 }
 
-.box-logo{
+.box-logo {
   position: relative;
   max-width: 800px;
   width: 600px;
@@ -16,13 +16,13 @@ body{
   justify-content: center;
 }
 
-.box-logo img{
+.box-logo img {
   position: absolute;
   width: 100%;
   object-fit: cover;
 }
 
-.container-check{
+.container-check {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,7 +55,8 @@ body{
   height: 20px;
   position: relative;
 }
-#huawei::before, #zte::before, #ztestate::before{
+
+#huawei::before, #zte::before, #ztestate::before {
   content: '';
   position: absolute;
   margin: 0;
@@ -64,13 +65,13 @@ body{
   height: 20px;
   background-color: white;
   border-radius: 50%;
-  border: 5px solid #d50000;
+  border: 5px solid #478f9a;
   opacity: 0;
   visibility: hidden;
   z-index: 9;
 }
 
-#huawei:checked::before, #zte:checked::before, #ztestate:checked::before{
+#huawei:checked::before, #zte:checked::before, #ztestate:checked::before {
   opacity: 1;
   visibility: visible;
 }

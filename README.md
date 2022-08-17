@@ -1,3 +1,5 @@
+[![Watch the video](.readme_img/01.png)](https://youtu.be/JhxtyXK1Jso)
+
 <!-- /////////////////LINGUAGENS////////////////////// -->
 
 ## Na construção do projeto foi utilizado as seguintes linguagens / frameworks
