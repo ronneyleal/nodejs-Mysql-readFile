@@ -1,3 +1,9 @@
+Projeto desenvolvido como desafio de uma empresa, onde deveria: \
+1-Transformar uma saída de texto provindo de um equipamento de rede, em dados. \
+2-Subir um Banco de Dados, realizar uma pequena modelagem para armazenar os dados anteriores. \
+3-Criar um Web Server, que possua uma rota que realize a leitura dos arquivos (estaticamente) e realize o armazenamento dos dados obtidos no banco de dados e uma rota  que realize a obtenção destes dados armazenados. \
+4-Criar um pequeno Front-end que consuma estes dados. \
+
 https://user-images.githubusercontent.com/75189406/185150629-3942d2b8-5cc5-4496-b5d7-12bab5088b09.mp4
 
 <!-- /////////////////LINGUAGENS////////////////////// -->
