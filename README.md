@@ -1,4 +1,4 @@
-[![Watch the video](.readme_img/01.png)](https://youtu.be/JhxtyXK1Jso)
+https://user-images.githubusercontent.com/75189406/185150629-3942d2b8-5cc5-4496-b5d7-12bab5088b09.mp4
 
 <!-- /////////////////LINGUAGENS////////////////////// -->
 
